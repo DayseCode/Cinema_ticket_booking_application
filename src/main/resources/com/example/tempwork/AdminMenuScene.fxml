@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tempwork.AdminMenuScene">
+   <children>
+      <Button layoutX="117.0" layoutY="124.0" mnemonicParsing="false" onAction="#switchToMovieListScene" prefHeight="25.0" prefWidth="250.0" text="Movie list">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="34.0" prefHeight="90.0" prefWidth="480.0" text="Admin menu" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="194.0" mnemonicParsing="false" onAction="#switchToAddingMovieScene" prefHeight="25.0" prefWidth="250.0" text="Add movie">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="264.0" mnemonicParsing="false" onAction="#switchToDeletingMovieScene" prefHeight="25.0" prefWidth="250.0" text="Delete movie">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="334.0" mnemonicParsing="false" onAction="#switchToBookedTicketScene" prefHeight="25.0" prefWidth="250.0" text="Booked ticket">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="404.0" mnemonicParsing="false" onAction="#switchToReturnedTicketScene" prefHeight="25.0" prefWidth="250.0" text="Returned ticket">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="474.0" mnemonicParsing="false" onAction="#switchToDeletingCustomerScene" prefHeight="25.0" prefWidth="250.0" text="Delete customer">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToChoiceScene" prefHeight="48.0" prefWidth="45.0" text="&lt;">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

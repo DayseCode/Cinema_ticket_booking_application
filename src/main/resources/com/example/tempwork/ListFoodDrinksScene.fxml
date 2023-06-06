@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tempwork.ListFoodDrinksScene">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="34.0" prefHeight="90.0" prefWidth="480.0" text="List of food and drinks" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="50.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="100.0" layoutY="211.0" prefHeight="150.0" prefWidth="280.0" text="HOTDOG                  ---             49.99 UAH&#10;CHEES DOG             ---             59.99 UAH&#10;1.4 POUNDER          ---             59.99 UAH&#10;1.2 POUNDER          ---             69.99 UAH&#10;NACHOS                   ---             69.99 UAH&#10;CHIPS                        ---             29.99 UAH&#10;FRIES                         ---             49.99 UAH&#10;CURLY FRIES           ---             59.99 UAH&#10;SWEETS                   ---             VARIOUS&#10;POPCORN 20z         ---             25.50 UAH&#10;POPCORN 40z         ---             49.90 UAH">
+         <font>
+            <Font name="Dubai Medium" size="14.0" />
+         </font>
+      </TextArea>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="113.0" prefHeight="38.0" prefWidth="480.0" text="CINEMA MENU" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="167.0" prefHeight="36.0" prefWidth="480.0" text="FOOD" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="370.0" prefHeight="26.0" prefWidth="480.0" text="DRINKS" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="100.0" layoutY="415.0" prefHeight="150.0" prefWidth="280.0" text="COLD BOTTLE         ---             29.99 UAH&#10;TEA, COFFEE            ---             25.50 UAH&#10;FLUMPS                    ---             25.50 UAH&#10;PEPSI, COKE             ---             34.99 UAH&#10;ICY DRINK                 ---             34.99 UAH&#10;JUICE                         ---             34.99 UAH">
+         <font>
+            <Font name="Dubai Medium" size="14.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="14.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToUserMenuScene" prefHeight="48.0" prefWidth="45.0" text="&lt;">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

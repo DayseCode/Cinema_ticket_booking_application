@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tempwork.ActorsCastByMovieScene">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="34.0" prefHeight="90.0" prefWidth="480.0" text="Actors cast of movie" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="150.0" text="Choose movie:">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="actorsCastChoiceBox" layoutX="200.0" layoutY="150.0" prefHeight="35.0" prefWidth="210.0" />
+      <TextArea fx:id="actorsCastTextArea" editable="false" layoutX="90.0" layoutY="235.0" prefHeight="342.0" prefWidth="300.0" text="&#10;">
+         <font>
+            <Font name="Dubai Medium" size="14.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="14.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToUserMenuScene" prefHeight="48.0" prefWidth="45.0" text="&lt;">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

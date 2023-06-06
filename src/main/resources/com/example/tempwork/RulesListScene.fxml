@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tempwork.RulesListScene">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="34.0" prefHeight="90.0" prefWidth="480.0" text="Rules of conduct" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="50.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="124.0" prefHeight="36.0" prefWidth="480.0" text="Every customer should following these rules" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="88.0" layoutY="171.0" prefHeight="364.0" prefWidth="303.0" text="1. Respect other patrons&#10;2. Do not talk during the movie&#10;3. Do not use your cellphone&#10;4. Arrive in good time&#10;5. Eat and drink quietly&#10;6. Only touch your seat&#10;7. Make out at home rather&#10;8. Go to the bathroom before&#10;9. Sit in your allocated seat&#10;10. Mind your children">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="14.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToUserMenuScene" prefHeight="48.0" prefWidth="45.0" text="&lt;">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tempwork.BookTicketScene">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="90.0" prefWidth="480.0" text="Booking ticket" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Medium" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="82.0" text="See free seat">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToUserMenuScene" prefHeight="48.0" prefWidth="45.0" text="&lt;">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="ticketTextArea" editable="false" layoutY="117.0" prefHeight="460.0" prefWidth="480.0">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="bookTicketButton" layoutX="343.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToCustomerDataEntryScene" text="Book ticket">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
